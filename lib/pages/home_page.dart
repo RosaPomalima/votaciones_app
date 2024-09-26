@@ -40,10 +40,8 @@ class HomePage extends StatelessWidget {
                           print(documentSnapshot["nVotos"]);
                           return CardVotaciones(
                             participantes: ParticipantesModels(
-                              image: documentSnapshot[
-                                  "image"], // Debe ser una URL de imagen
-                              nVotos: documentSnapshot[
-                                  "nVotos"], // Debe ser un entero
+                              image: documentSnapshot["image"],
+                              nVotos: documentSnapshot["nVotos"],
                               namePolitico: documentSnapshot["namePolitico"],
                               nombreRepresentante:
                                   documentSnapshot["nombreRepresentante"],
